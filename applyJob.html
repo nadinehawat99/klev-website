@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Klev</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/fonts/gooper/stylesheet.css">
+    <link rel="stylesheet" href="plugins/splide/css/splide.min.css">
+    <link rel="stylesheet" href="splide-theme.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<span class="position-absolute trigger">
+        <!-- hidden trigger to apply 'stuck' styles -->
+</span>
+<nav class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Eighth navbar example">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+                aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample07">
+            <ul class="d-flex navbar-nav ms-md-auto mb-2 mb-lg-0 me-lg-2">
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link active" href="careers.html">Careers</a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="header centered">
+    <div class="row align-items-center">
+        <img src="assets/images/careers.png" alt="">
+        <h1 class="centered">JOIN OUR TEAM</h1>
+    </div>
+</section>
+
+<section class="infograph mt-5">
+    <div class="container">
+        <h3 class="pb-2">APPLY FOR A JOB</h3>
+        <div class="row">
+            <div class="col-md-8 text-section">
+                <p>
+                    Thank you for applying to the position of Lorem Ipsum, we are sure you are a fit!
+                </p>
+                <p>
+                    You just have a few step left.
+                    Fill in the given form, attach your CV and let us do the rest!
+                </p>
+                <p> Job Type </p>
+                <div class="form-group row">
+                      <div class="col-sm-5">
+                        <select class="form-control">
+                            <option>Full Time</option>
+                            <option>Part Time</option>
+                        </select>
+                    </div>
+                </div>
+                <p class="mb-0 pt-5"> Job Location </p>
+                <span> Ghazir, Jounieh</span>
+                <p class="mb-0 pt-5"> Job Category </p>
+                <span> Graphic Designer</span>
+            </div>
+
+            <div class="col-md-4 background-content">
+                    <h4 class="pb-3"> Apply for this position</h4>
+                <form>
+                <div class="form-group">
+                        <label for="name" class="col-sm-5 col-form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                        <label for="email" class="col-sm-5 col-form-label">Email</label>
+                        <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                        <label for="phone" class="col-sm-5 col-form-label">Phone</label>
+                        <input type="text" class="form-control" id="phone">
+                </div>
+                <div class="form-group py-2">
+                    <label for="phone" class="col-sm-5 col-form-label">Cover Letter</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" ></textarea>
+                </div>
+                <div class="form-group py-2">
+                        <label for="phone" class="col-sm-5 col-form-label">Upload CV/Resume *</label>
+<!--                        <input type="file" id="test" name="test" accept=".pdf,.doc,.docx"/>-->
+                    <div class="file-upload">
+                        <div class="file-select">
+                            <div class="file-select-button" id="fileName">Choose File</div>
+                            <div class="file-select-name" id="noFile">No file chosen...</div>
+                            <input type="file" name="chooseFile" id="chooseFile">
+                        </div>
+                    </div>
+                </div>
+                <div class="checkbox py-2">
+                    <label><input type="checkbox" value=""> By using this form you agree with the storage and handling
+                        of your data by this website.*</label>
+                </div>
+                     <a href="#" class="btn btn-primary mx-1 mt-2">Submit</a>
+               </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="text-center">
+    <section class="pt-2">
+        <div class="container text-center text-md-start mt-5">
+            <div class="logo-footer">
+                <img src="assets/images/logo-footer.png" alt="">
+            </div>
+            <div class="border-bottom-footer py-2"></div>
+            <!-- Grid row -->
+            <div class="row mt-4">
+
+                <div class="col-md-4">
+                    <ul>
+                        <a href="#!" class="footer-link">
+                            <li class="pt-3">
+                                <img src="assets/vectors/contact.svg" alt="">
+                                <span class="list">+961 81 22 81 44</span>
+                            </li>
+                        </a>
+
+                        <a href="#!" class="footer-link">
+                            <li class="pt-3">
+                                <img src="assets/vectors/web.svg" alt="">
+                                <span class="list"> info@klevlb.com </span>
+                                <p class="px-4 list"> www.klevlb.com </p>
+                            </li>
+                        </a>
+                        <a href="#!" class="footer-link">
+                            <li class="pt-3">
+                                <img src="assets/vectors/location.svg" alt="">
+                                <span class="list">
+                                                Ghazir, Jounieh Highway, <br>
+                                                GAF & CO bld. 3rd fl. <br>
+                                                Kesrouan, Lebanon
+                                                </span>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <p class="py-1">
+                        <a href="about.html" class="footer-nav">About Us</a>
+                    </p>
+                    <p class="py-1">
+                        <a href="services.html" class="footer-nav">Services</a>
+                    </p>
+                    <p class="py-1">
+                        <a href="portfolio.html" class="footer-nav">Portfolio</a>
+                    </p>
+                    <p class="py-1">
+                        <a href="#!" class="footer-nav">Vacancies</a>
+                    </p>
+                    <p class="py-1">
+                        <a href="contact-us.html" class="footer-nav">Contact Us</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <form action="" class="email-footer">
+                        <span class="text-white pb-4">Enter your email address to stay updated</span>
+                        <div class="email">
+                            <img src="assets/vectors/email-footer.svg" alt="">
+                            <input type="email" placeholder="">
+                            <a href="#" class="btn btn-primary mx-1 mt-5">Subscribe</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="plugins/countUp/countUp.umd.js"></script>
+<script src="plugins/splide/js/splide.min.js"></script>
+
+<script src="assets/js/scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
